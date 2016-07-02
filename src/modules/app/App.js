@@ -93,10 +93,6 @@ class App extends Component {
     })
   }
 
-  addColor = () => {
-    this.props.add('red')
-  }
-
   renderHeader = () => (
     <Text style={styles.title}>
       {this.state.title}
